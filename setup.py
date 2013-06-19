@@ -44,7 +44,7 @@ def pkgconfig(*packages):
 
     return kwargs
 
-lua_pkgconfig = pkgconfig('lua', 'lua' + LUAVERSION)
+lua_pkgconfig = pkgconfig('lua', 'lua' + LUAVERSION, 'lua5.1')
 
 setup(name="lunatic-python-bugfix",
       version="1.1",
